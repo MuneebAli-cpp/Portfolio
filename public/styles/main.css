@@ -1,0 +1,472 @@
+body{
+    background: #2A7B9B;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    animation: 1s fadeIn ease-in;
+    color: white;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.box-1{
+    width : 100%;
+    height: 60px;
+    box-sizing: content-box;
+    padding: -10px;
+    
+}
+.box-1 .education{
+    text-decoration: none;
+    color: white;
+    margin-left: 1000px;
+    position: relative;
+    top: 25px;
+}
+.box-1 .experience{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 25px;
+    margin-left: 100px;
+}
+.box-1 .contact{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 25px;
+    margin-left: 100px;
+}
+.box-2 .box-2_1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: radial-gradient(
+    circle at center,
+    #f5f5f516,       /* Light gray (outer) */
+    #d1d1d131,       /* Medium gray (middle) */
+    #a3a3a3a5       /* Darker gray (inner) */
+  );
+  margin-left: 469px;
+  margin-top: 120px;
+}
+.box-2 .box-2_1 img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    animation: 1s transform2 ease-in;
+    background-color: transparent;
+}
+@keyframes transform2 {
+    from {
+        transform: scale(0.4);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+.box-2 .arrow{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 450px;
+    top: -13.5px;
+}
+.name_box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 370px;
+    margin-top: -50px;
+}
+.name_box .name{
+    color: black;
+    margin-left: 8px;
+    font-weight: bold;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box-2 .box-2_2{
+    margin-left: 600px;
+    margin-top: -180px;
+}
+.box-2 .box-2_2 p{
+    font-size: 12px;
+}
+.box-2_2 h1{
+    margin-top: -10px;
+}
+.box-2_2_1{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+
+}
+.box-2_2_1 .cover{
+    color: purple;
+    margin-left: 25px;
+}
+.ellipse{
+    margin-left: 100px;
+    position: relative;
+    top: -72px;
+}
+.p_1{
+    margin-left: 600px;
+    position: relative;
+    top: -90px;
+    font-size: 12px;
+}
+.box-2 .gradient{
+    position: relative;
+    top: -100px;
+    left: 450px;
+    z-index: -1;
+}
+.box-3{
+    margin-left: 470px;
+}
+.box-3 p{
+    margin-top: -15px;
+    font-size: 12px;
+}
+.para_1{
+    text-align: justify;
+}
+.box-4{
+    margin-left: 200px;
+}
+.box5{
+    margin-top:  70px;
+    display: flex;
+    flex-direction: row;
+}
+.box5 .Game{
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 15px;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    box-shadow: 0 0 10px black;
+    margin-left: 180px;
+}
+.experience-page .box5 .Game{
+    animation: 1.5s transform ease-in;
+}
+@keyframes transform {
+    from {
+        transform: scale(0.4);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+.box5 .Web{
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 15px;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    box-shadow: 0 0 10px black;
+    margin-left: 380px;
+}
+.experience-page .box5 .Web{
+    animation: 1.5s transform1 ease-in;
+    
+}
+@keyframes transform1 {
+    from {
+        transform: scale(0.4);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+.box5 .Game .gameLink :hover{
+    color: #2A7B9B;
+    color: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+.box6 ul li{
+    list-style: disc;
+    margin-top: 13px;
+}
+.box6 ul li{
+    animation: 1.2s transform3 ease-in-out;
+}
+.box6, 
+h2,
+h1{
+    animation: 1.2s transform3 ease-in-out forwards;
+}
+
+.box7 ul li{
+    list-style: disc;
+    margin-top: 13px;
+}
+.box7 ul li{
+    animation: 1.2s transform3 ease-in-out;
+}
+.box7, 
+h2,
+h1{
+    animation: 1.2s transform3 ease-in-out forwards;
+}
+
+@keyframes transform3 {
+    from {
+        transform: translateY(30px) scale(0.4);
+    }
+    to {
+        transform:translateY(0) scale(1);
+    }
+}
+.box8 h2{
+    margin-left: 65px;
+    margin-top: 25px;
+}
+.box8 .UNI{
+    width: 590px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 15px;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    box-shadow: 0 0 10px black;
+    margin-left: 500px;
+    margin-top: 40px;
+    animation: 1.2S transform1 ease-in;
+}
+.box8 .Degree{
+    width: 590px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 15px;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    box-shadow: 0 0 10px black;
+    margin-left: 500px;
+    margin-top: 40px;
+    animation: 1.2S transform1 ease-in;
+}
+.box8 .Degree h2{
+    margin-left: 135px;
+}
+.box9 .city{
+    width: 430px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 15px;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    box-shadow: 0 0 10px black;
+    margin-left: 500px;
+    margin-top: 40px;
+    animation: 1.2S transform1 ease-in;
+}
+.box9 .city h2{
+    margin-left: 65px;
+    margin-top: 25px;
+}
+.box10{
+    display: flex;
+    flex-direction: row;
+}
+.box10 .email{
+    width: 430px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 15px;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    box-shadow: 0 0 10px black;
+    margin-left: 0px;
+    margin-top: 40px;
+    animation: 1.2S transform1 ease-in;
+}
+.box10 .email h2{
+    margin-left: 45px;
+    margin-top: 25px;
+     font-size: 17px;
+}
+.box10 .number{
+    width: 430px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 15px;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    box-shadow: 0 0 10px black;
+    margin-left: 55px;
+    margin-top: 40px;
+    animation: 1.2S transform1 ease-in;
+}
+.box10 .number h2{
+    margin-left: 65px;
+    margin-top: 32px;
+     font-size: 17px;
+}
+.box10 .GitHub{
+    width: 430px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 15px;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    box-shadow: 0 0 10px black;
+    margin-left: 85px;
+    margin-top: 40px;
+    animation: 1.2S transform1 ease-in;
+}
+.box10 .GitHub h2{
+    margin-left: 135px;
+    margin-top: 32px;
+     font-size: 17px;
+}
+@media(max-width: 768px) {
+    .box-1 {
+        padding: 10px;
+    }
+    .box-1 .education,
+    .box-1 .experience,
+    .box-1 .contact {
+        margin-left: 20px;
+        top: 10px;
+    }
+    .box-2{
+        margin-left: -40px;
+    }
+    .box-2 .box-2_1 {
+        margin-left: 85px;
+        margin-top: 50px;
+    }
+    .name_box {
+        margin-left: 100px;
+    }
+    .box-2 .box-2_2 {
+        margin-left: 200px;
+        margin-top: -150px;
+        font-size: 12px;
+    }
+    .box-2_2 .ellipse {
+        margin-left: 30px;
+        position: relative;
+        top: -50px;
+
+    }
+    .arrow{
+        margin-left: -380px;
+        
+    }
+    .name_box p{
+        margin-left: -50px;
+        position: relative;
+        top: 20px;
+    }
+    .box-2 .p_1{
+        margin-left: 200px;
+        position: relative;
+        top: -90px;
+    }
+    .box-3{
+        margin-left: -50px;
+        font-size: 10px;
+        padding: 50px;
+        margin-top: -100px;
+    }
+    .box-3 p{
+        position: relative;
+        top: 15px;
+    }
+    .box8{
+        margin-left: -493.8px;
+    }
+    .box8 .UNI {
+        font-size: 12px;
+        width: 350px;
+    }
+    .box8 .Degree {
+        font-size: 12px;
+        width: 350px;
+        
+    }
+    .box8 .Degree h2 {
+        margin-left: 50px;
+    }
+    .box5{
+        margin-left: -493.8px;
+        display: flex;
+        flex-direction: column;
+    }
+    .box5 .Game{
+        position: relative;
+        left: 323px;
+    }
+    .box5 .Web{
+        position: relative;
+        left: 123px;
+        margin-top: 20px;
+    }
+    .box9{
+        display: flex;
+        flex-direction: column;
+    }
+    .box9 .city{
+        position: relative;
+        left: -480px;
+        width: 320px;
+    }
+    .box9 .city h2{
+        margin-left: 50px;
+        font-size: 15px;
+        margin-top: 35px;
+    }
+    .box10{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .box10 .email{
+        position: relative;
+        left: 17.8px;
+        width: 320px;
+    }
+    .box10 .email h2{
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    .box10 .number{
+        position: relative;
+        left: -34.8px;
+        width: 320px;
+    }
+    .box10 .number h2{
+        margin-left: 55px;
+        font-size: 15px;
+    }
+    .box10 .GitHub{
+        position: relative;
+        left: -69.8px;
+        width: 320px;
+    }
+}
